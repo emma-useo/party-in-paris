@@ -1,0 +1,84 @@
+.banner {
+  padding: 200px 0px;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner img {
+  width: 250px;
+  position: absolute, top;
+  margin-top: -300px;
+
+}
+
+.banner h1 {
+ color: #FFB536;
+ padding-left: 80px;
+
+}
+
+
+#bar-background {
+   background-image:linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.56)), url('../../images/bar6.jpg');
+}
+
+#concert-background {
+  background-image:linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.56)), url('../../images/backconcert.jpg');
+}
+
+#tips-background {
+  background-image:linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.56)), url('../../images/tips.jpg');
+}
+
+.banner-logo img {
+  width: 250px;
+  position: absolute, top;
+  bottom: 80px;
+}
+
+
+.slider { width: 100%; max-width: 1500px; }
+
+.slider figure {
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.slider figure img { width: 20%; height: 600px; float: left; }
+.slider { width: 100%; max-width: 1500px; overflow: hidden }
+
+@keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+}
+
+.slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  left: 0;
+  text-align: left;
+  animation: 30s slidy infinite;
+  opacity: 0.6;
+}
+
+
+#logo-slider img {
+  margin-top: -600px;
+  position: relative;
+  z-index: 10;
+}

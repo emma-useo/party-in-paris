@@ -1,0 +1,16 @@
+.spotlight {
+  padding-left: 60px;
+  padding-right: 70px;
+ }
+
+.img-right {
+  float: right ;
+}
+
+.card-left {
+  background-color: rgba(255, 181, 54, 0.56) ;
+  text-align: center;
+  padding-bottom: 190px;
+  padding-top: 200px;
+}
+

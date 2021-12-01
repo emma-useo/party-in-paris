@@ -1,0 +1,60 @@
+.text-center {
+  text-align: center;
+  padding-top: 35px;
+}
+
+#text-margintop {
+  margin-top: -200px;
+}
+
+#padding-top {
+ padding-top: 150px;
+}
+
+.text-size {
+  font-size: 10px;
+  color: black;
+}
+
+.text-left {
+  text-align: left;
+  padding-left: 190px;
+}
+
+.element-align {
+  display: inline;
+  text-decoration: underline;
+}
+
+.text-right {
+  text-align: right;
+  padding: 10px;
+  padding-right: 180px;
+  font-size: 12;
+}
+
+
+.text-inline {
+  display: inline;
+  padding: 50px ;
+  margin-bottom: 60px;
+}
+
+
+.text-orangeright {
+  color: rgba(255, 181, 54, 0.56) ;
+  text-align: right;
+  padding-right: 150px;
+}
+
+.text-orangeleft {
+  color: rgba(255, 181, 54, 0.56) ;
+  text-align: left;
+  padding-left: 60px;
+}
+
+
+
+
+
+

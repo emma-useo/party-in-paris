@@ -1,0 +1,33 @@
+.img-rectangle {
+  width: 250px;
+  border-radius: 30%;
+  float: left;
+  align-items: center;
+  justify-content: space-between;
+  padding: 31px;
+  padding-left: 55px;
+}
+
+.img-border {
+  float: right;
+  width: 600px;
+  padding: 60px;
+  border: 50px solid rgba(255, 181, 54, 0.56);
+  padding: 0px;
+  margin: 40px;
+  }
+
+
+.img-circle {
+  border-radius: 50%;
+  width: 170px;
+  transform: .1s;
+}
+
+.img-circle:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+
